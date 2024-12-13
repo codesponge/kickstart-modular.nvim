@@ -32,6 +32,10 @@ return {
         return '%2l:%-2v'
       end
 
+      --Filesystem Manipulator
+
+      --require('mini.files').setup()
+
       -- ... and there is more!
       --  Check out: https://github.com/echasnovski/mini.nvim
     end,
