@@ -177,10 +177,12 @@ return {
       --  - settings (table): Override the default settings passed when initializing the server.
       --        For example, to see the options for `lua_ls`, you could go to: https://luals.github.io/wiki/settings/
       local servers = {
-        -- ruby
-        --ruby_lsp = {},
-        solargraph = {},
+        -- Ruby ==> having issues, where formating/checking seems to stop.  Need the right combo
+        ruby_lsp = {},
+        -- solargraph = {},
         rubocop = {},
+
+        -- Python
         pylsp = {},
         black = {},
         -- clangd = {},

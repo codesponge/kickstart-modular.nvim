@@ -32,10 +32,8 @@ return {
         return '%2l:%-2v'
       end
 
-      --Filesystem Manipulator
-
-      --require('mini.files').setup()
-
+      -- MiniFiles is setup in its own plugin for clarity of options
+      -- (custom.plugins.mini-files.lua)
       -- ... and there is more!
       --  Check out: https://github.com/echasnovski/mini.nvim
     end,
