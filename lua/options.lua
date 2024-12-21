@@ -11,10 +11,10 @@ vim.opt.relativenumber = true
 
 -- Indenting
 vim.opt.expandtab = true
-vim.opt.shiftwidth = 1
+vim.opt.shiftwidth = 2
 vim.opt.smartindent = true
-vim.opt.tabstop = 1
-vim.opt.softtabstop = 1
+vim.opt.tabstop = 2
+vim.opt.softtabstop = 2
 
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.opt.mouse = 'a'
