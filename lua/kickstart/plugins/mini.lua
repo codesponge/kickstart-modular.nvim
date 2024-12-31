@@ -8,7 +8,13 @@ return {
       --  - va)  - [V]isually select [A]round [)]paren
       --  - yinq - [Y]ank [I]nside [N]ext [Q]uote
       --  - ci'  - [C]hange [I]nside [']quote
-      require('mini.ai').setup { n_lines = 500 }
+      --  NOTE: I find that this causes weird behavior
+      --  by extending over multiple lines.  could be handy
+      --  but I keep ending up not choosing what I want or
+      --  changing much more than I anticipated.  So I am
+      --  not using it for now.
+      --
+      --require('mini.ai').setup { n_lines = 500 }
 
       -- Add/delete/replace surroundings (brackets, quotes, etc.)
       --
