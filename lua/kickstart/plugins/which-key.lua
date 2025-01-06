@@ -63,6 +63,7 @@ return {
         { '<leader>s', group = '[S]earch' },
         { '<leader>t', group = '[T]oggle' },
         { '<leader>h', group = 'Git [H]unk', mode = { 'n', 'v' } },
+        --{ '<F2>s', group = '[s]end to REPL' },
       },
     },
   },
