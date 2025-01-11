@@ -22,8 +22,14 @@ return {
         },
         -- How the repl window will be displayed
         -- See below for more information
-        --repl_open_cmd = require('iron.view').bottom(40),
-        repl_open_cmd = require('iron.view').split.vertical.botright(83),
+        -- repl_open_cmd = require('iron.view').bottom(40),
+        -- NOTE: To change the way a repl window opens without
+        -- resarting nvim you can run something in lua like...
+        -- require('iron').config.repl_open_cmd = require("iron.view").split.vertical("40%")
+        --
+        -- Set the default way a repl window opens
+        --repl_open_cmd = require('iron.view').split.vertical.botright(83),
+        repl_open_cmd = require('iron.view').split.vertical '40%',
       },
 
       --NOTE: setting keymaps directly further in the file
